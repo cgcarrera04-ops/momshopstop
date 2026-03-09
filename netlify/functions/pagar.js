@@ -70,9 +70,9 @@ exports.handler = async (event, context) => {
                 }
             },
             back_urls: {
-                success: "https://tupagina.netlify.app/exito", // Cambiar por tu URL luego
-                failure: "https://tupagina.netlify.app/error",
-                pending: "https://tupagina.netlify.app/pendiente"
+                success: "https://momshopstop.netlify.app/", // Cambiar por tu URL luego
+                failure: "https://momshopstop.netlify.app/",
+                pending: "https://momshopstop.netlify.app/"
             },
             auto_return: "approved",
             statement_descriptor: "MOM SHOP STOP"
@@ -114,4 +114,5 @@ exports.handler = async (event, context) => {
             body: JSON.stringify({ error: "Error en el servidor de Netlify." })
         };
     }
+
 };
